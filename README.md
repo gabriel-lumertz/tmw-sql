@@ -1,4 +1,4 @@
-# 📚 Acompanhamento do Curso de SQL & Python
+# 📚 Acompanhamento do Curso de SQL
 
 Este repositório é dedicado ao **acompanhamento e prática** das aulas do curso de SQL ministrado por **Téo Me Why** (referência: [Link do Repositório Original](https://github.com/TeoMeWhy/sql-2025)).
 
