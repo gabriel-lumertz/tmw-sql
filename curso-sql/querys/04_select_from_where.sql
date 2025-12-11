@@ -1,3 +1,8 @@
-select *
-from produtos
-where DescCategoriaProduto = 'rpg'
+SELECT
+    *
+
+FROM
+    produtos
+
+WHERE
+    DescCategoriaProduto = 'rpg'

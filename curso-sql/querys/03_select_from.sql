@@ -1,3 +1,8 @@
-SELECT IdProduto, DescCategoriaProduto
-FROM produtos
+SELECT
+    IdProduto,
+    DescCategoriaProduto
+
+FROM
+    produtos
+
 LIMIT 10

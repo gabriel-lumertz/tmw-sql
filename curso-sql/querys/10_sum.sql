@@ -1,11 +1,11 @@
 SELECT
-    SUM(QtdePontos) AS QtdePontos,
-    SUM(
+    sum(QtdePontos) AS QtdePontos,
+    sum(
         CASE
             WHEN QtdePontos > 0
             THEN QtdePontos
         END) AS QtdePontosPositivo,
-    SUM(
+    sum(
         CASE
             WHEN QtdePontos < 0
             THEN QtdePontos

@@ -1,5 +1,6 @@
 SELECT
-    COUNT(*),
-    COUNT(1)
+    count(*),
+    count(1)
+
 FROM
     clientes

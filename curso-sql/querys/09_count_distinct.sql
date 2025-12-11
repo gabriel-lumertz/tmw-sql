@@ -1,20 +1,7 @@
--- SELECT
---     DISTINCT FlTwitch, FlEmail
-
--- FROM
---     clientes;
-
-
--- SELECT
---     COUNT(DISTINCT IdCliente)
-
--- FROM
---     clientes;
-
 SELECT
-    COUNT(*),
-    COUNT(DISTINCT IdTransacao),
-    COUNT(DISTINCT IdCliente)
+    count(*),
+    count(DISTINCT IdTransacao),
+    count(DISTINCT IdCliente)
 
 FROM
     transacoes
