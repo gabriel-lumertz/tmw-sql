@@ -13,5 +13,8 @@ WHERE
 GROUP BY
     IdCliente
 
+HAVING
+    sum(QtdePontos) >= 4000
+
 ORDER BY
     qtdePontos DESC;
